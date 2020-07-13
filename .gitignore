@@ -1,0 +1,3 @@
+.vagrant
+restore_snapshot.sh
+save_snapshot.sh
