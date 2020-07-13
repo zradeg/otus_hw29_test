@@ -826,7 +826,8 @@ Exception ValueError: 'I/O operation on closed file' in <bound method _Stream.__
 
 
 
-<summary><details>
+
+<details><summary>Дальше рыбу заворачивал</summary>
 ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" user@host
 
 
@@ -951,4 +952,4 @@ barman switch-wal --force --archive pgmaster
 и затем снова 
 
 barman backup pgmaster
-</details><summary>
+</details>
