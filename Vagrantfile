@@ -22,11 +22,11 @@ Vagrant.configure(2) do |config|
     barman.vm.hostname = "barman"
   end
 
-#  config.vm.provision "ansible" do |ansible|
-#    ansible.verbose = "vvv"
-#    ansible.playbook = "provisioning/playbook.yml"
-#    ansible.become = "true"
-#  end
+  config.vm.provision "ansible" do |ansible|
+    ansible.verbose = "v"
+    ansible.playbook = "provisioning/playbook.yml"
+    ansible.become = "true"
+  end
 
 
 end
